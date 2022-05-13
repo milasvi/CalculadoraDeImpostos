@@ -11,7 +11,7 @@ produtos = int(input('Quantos produtos você deseja registrar?'))
 
 while contador < produtos:
     contador = contador + 1
-    preco = int(input(f'Informe o preço do {contador}º produto:'))
+    preco = float(input(f'Informe o preço do {contador}º produto:'))
     soma = preco + soma
 resultado = soma * imposto / 100
 print(f'Você gastou um total de {soma} reais. O total a pagar de imposto é de {resultado} reais.')
